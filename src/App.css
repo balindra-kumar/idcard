@@ -1,0 +1,76 @@
+/* src/components/IDCard.css */
+
+@media print {
+  @page {
+      size: auto;
+      padding: 0cm;
+      margin: 0cm;
+      margin-bottom: 0px !important;
+      /* Hide header and footer */
+   
+  }
+  
+}
+.id-card-image{
+  width: 100px;
+}
+.id-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+  width: 100%;
+}
+
+.card-style-3 {
+  background-color: #e3f2fd;
+  padding: 10px;
+}
+
+.card-style-4 {
+  border: 2px dashed #1976d2;
+  padding: 10px;
+}
+
+.card-style-5 {
+  background-color: #fce4ec;
+  padding: 10px;
+}
+
+
+ @media print {
+.id-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+  width: 100%;
+}
+
+.card-style-3 {
+  background-color: #e3f2fd;
+  padding: 10px;
+}
+
+.card-style-4 {
+  border: 2px dashed #1976d2;
+  padding: 10px;
+}
+
+.card-style-5 {
+  background-color: #fce4ec;
+  padding: 10px;
+}
+ }
